@@ -86,3 +86,4 @@ g++ -std=c++17 -o fastdb fastdb.cpp -lsqlite3
 sudo mv fastdb /usr/local/bin/
 ```
 
+> PARA SABER MÁS [LEE EL MANUAL DE USO](MANUAL.md)
