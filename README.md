@@ -28,6 +28,12 @@ Ejemplos completos:
     fastdb --db app.db commit
 ```
 
+## Instrucciones para Compilar
+
+```bash
+g++ -std=c++17 -o fastdb fastdb.cpp -lsqlite3
+sudo mv fastdb /usr/local/bin/
+```
 
 ## Características Implementadas
 
@@ -79,11 +85,5 @@ Ejemplos completos:
 ./fastdb --db app.db update --table productos set precio=precio*1.1 where categoria='Electrónica'
 ```
 
-## Instrucciones para Compilar
-
-```bash
-g++ -std=c++17 -o fastdb fastdb.cpp -lsqlite3
-sudo mv fastdb /usr/local/bin/
-```
 
 > PARA SABER MÁS [LEE EL MANUAL DE USO](MANUAL.md)
