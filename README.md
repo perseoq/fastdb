@@ -86,4 +86,4 @@ sudo mv fastdb /usr/local/bin/
 ```
 
 
-> PARA SABER MÁS [LEE EL MANUAL DE USO](MANUAL.md)
+> PARA SABER MÁS [LEE EL MANUAL DE USUARIO](MANUAL.md)
